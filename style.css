@@ -49,3 +49,261 @@ img {
 }
 
 /* 重置完成 */
+*,*:before,*:after{
+  box-sizing:border-box
+}
+.container{
+  width: 1024px;
+  height: 2605px;
+  margin: 0 auto;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  width: 940px;
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.logo img{
+  width: 220px;
+  height: 40px;
+}
+.list {
+  display: flex;
+  width: 320px;
+  justify-content: space-between;
+}
+.list a{
+  display: inline-block;
+  text-decoration: none;
+  width: 32px;
+  height: 22px;
+  padding-top: 10px;
+  color: #3F5D45;
+}
+.list-item img{
+}
+.banner{
+  width: 940px;
+  height: 496px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+.content{
+  width: 940px;
+  margin: 0  auto;
+  display: flex;
+}
+.sidebar {
+  margin-right: 20px;
+  height: 100%;
+}
+.sidebar ul{
+  width: 300px;
+}
+.sidebar h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 65px;
+  color: #EAF0ED;
+  background-color: #3F5D45;
+  border: 1px solid #EAF0ED;
+  opacity: 1;
+  font: normal normal 600 24px/40px PingFang TC;
+}
+.sidebar a{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-size: 24px;
+  padding: 16px 0;
+  color: #3F5D45;
+  border: 1px solid #EAF0ED;
+  opacity: 1;
+  font: normal normal 600 24px/40px PingFang TC;
+}
+.product {
+  position: relative;
+  margin-bottom: 20px;
+}
+.product-list{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.description {
+  display: flex;
+}
+.description p{
+  font-size: 20px;
+}
+.dessertName {
+  padding: 14px 33px;
+  font: normal normal 300 20px/20px PingFang TC;
+  letter-spacing: 0px;
+  color: #3F5D45;
+  opacity: 1;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #EAF0ED;
+  border-top: 0px;
+  border-bottom: 0px;
+}
+.price {
+  padding: 14px 30px 14px 20px;
+  font: normal normal 600 20px/24px PingFang TC;
+  letter-spacing: 0px;
+  color: #3F5D45;
+  opacity: 1;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-right: 1px solid #EAF0ED;
+}
+.cart{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font: normal normal 600 24px/20px PingFang TC;
+  letter-spacing: 0px;
+  color: #3F5D45;
+  opacity: 1;
+  padding: 16px 90px;
+  background: #EAF0ED 0% 0% no-repeat padding-box;
+  border: 1px solid #EAF0ED;
+}
+.hotpick {
+  writing-mode: vertical-rl; /* 控制垂直方向，rl 表示从右到左 */
+  text-orientation: upright; /* 让文字保持直立 */
+  white-space: nowrap; /* 防止换行，保持在一行显示 */
+  position: absolute;
+  top: 0;
+  left: 20px;
+  background-color: #3F5D45;
+  color: #EAF0ED;
+  width: 36px;
+  height: 107px;
+  text-align: center;
+  padding-right: 10px;
+}
+.likeheart {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 19px;
+  right: 22px;
+}
+.pagenumber-bar {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.pageup {
+  width: 60px;
+  position: relative;
+  border: 1px solid #EAF0ED;
+  opacity: 1;
+}
+.pageup a{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.pageup img{
+  display: block;
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  width: 24px;
+  height: 24px;
+}
+.pagedown {
+  width: 60px;
+  position: relative;
+  border: 1px solid #EAF0ED;
+  opacity: 1;
+}
+.pagedown a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.pagedown img{
+  display: block;
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  width: 24px;
+  height: 24px;
+}
+.pagenumber {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  width: 60px;
+  padding: 22px 0px;
+  font: normal normal 600 20px/20px PingFang TC;
+  letter-spacing: 0px;
+  color: #3F5D45;
+  opacity: 1;
+  border: 1px solid #EAF0ED;
+  opacity: 1;
+}
+.pagenumber:hover{
+  color: #EAF0ED;
+  background-color: #3F5D45;
+}
+.footer {
+  width: 1024px;
+  margin: 0 auto;
+  background-color: #3F5D45;
+}
+.footer-top {
+  width: 940px;
+  margin: 0 auto;
+  padding-right: 80px;
+  padding-left: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.adv {
+  display: flex;
+  align-items: center;
+}
+.adv img {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  margin-top: 38px;
+  margin-bottom: 38px;
+}
+.adv p {
+  font: normal normal normal 24px/29px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #EAF0ED;
+  opacity: 1;
+}
+.mailblock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width: 380px;
+  height: 56px;
+  background-color: #EAF0ED;
+}
+.maillogo img{
+  position: absolute;
+  top: 16px;
+  left: 20px;
+}
+.summitbuttom {
+  background-color: #FFE180;
+  padding: 19px;
+}
+.summitbuttom img{
+  width: 16px;
+  height: 16px;
+}
