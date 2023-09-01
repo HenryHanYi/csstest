@@ -72,14 +72,14 @@ img {
 }
 .list {
   display: flex;
+  align-items: center;
   width: 320px;
   justify-content: space-between;
 }
 .list a{
   display: inline-block;
   text-decoration: none;
-  width: 32px;
-  height: 22px;
+
   padding-top: 10px;
   color: #3F5D45;
 }
@@ -295,6 +295,8 @@ img {
   background-color: #EAF0ED;
 }
 .maillogo img{
+  display: block;
+
   position: absolute;
   top: 16px;
   left: 20px;
