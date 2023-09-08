@@ -54,7 +54,6 @@ img {
 }
 .container{
   width: 1024px;
-  height: 2605px;
   margin: 0 auto;
 }
 .header{
@@ -82,8 +81,6 @@ img {
 
   padding-top: 10px;
   color: #3F5D45;
-}
-.list-item img{
 }
 .banner{
   width: 940px;
